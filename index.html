@@ -47,56 +47,79 @@
       <!-- end loader -->
       <!-- header -->
       <header>
-         <!-- header inner -->
-         <div class="header">
-            <div class="container-fluid">
-               <div class="row">
-                  <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 col logo_section">
-                     <div class="full">
-                        <div class="center-desk">
-                           <div class="logo">
-                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
-                     <div class="header_information">
-                        <nav class="navigation navbar navbar-expand-md navbar-dark ">
-                           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04" aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
-                           <span class="navbar-toggler-icon"></span>
-                           </button>
-                           <div class="collapse navbar-collapse" id="navbarsExample04">
-                              <ul class="navbar-nav mr-auto">
-                               <li class="nav-item">
-                                    <a class="nav-link" href="index.html">Ana Səhifə</a>
-                                 </li> 
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="about.html">Haqqımızda</a>
-                                 </li> 
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="services.html">Xidmətlər</a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="blog.html">Bloglar</a>
-                                 </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="faq.html">Tez-tez soruşulan suallar</a>
-                                 </li>
-                                  <li class="nav-item">
-                                    <a class="nav-link" href="video.html">Pulsuz Dərslər</a>
-                                 </li>
-                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Əlaqə</a>
-                                 </li>
-                              </ul>
-                           </div>
-                        </nav>
-                     </div>
-                  </div>
-               </div>
+        <!-- Topbar Start -->
+        <div class="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
+            <div class="col-lg-4">
+                <a class='text-decoration-none' href='/'>
+                    <span class="h1 text-uppercase text-primary bg-dark px-2">Seller</span>
+                    <span class="h1 text-uppercase text-dark bg-primary px-2 ml-n1">Central.az</span>
+                </a>
             </div>
-         </div>
+            <div class="col-lg-4 col-6 text-left">
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+       
+ <!-- Navbar Start -->
+    <div class="container-fluid bg-dark mb-30">
+        <div class="row px-xl-5">
+            <div class="col-lg-3 d-none d-lg-block">
+                <a class="btn d-flex align-items-center justify-content-between bg-primary w-100" data-toggle="collapse" href="#navbar-vertical" style="height: 65px; padding: 0 30px;">
+                    <h6 class="text-dark m-0"><i class=></i>SellerCentral.az</h6>
+                    <i class=></i>
+                </a>
+                <nav class="collapse position-absolute navbar navbar-vertical navbar-light align-items-start p-0 bg-light" id="navbar-vertical" style="width: calc(100% - 30px); z-index: 999;">
+                    <div class="navbar-nav w-100">
+                        <div class="nav-item dropdown dropright">
+                            <div class="dropdown-menu position-absolute rounded-0 border-0 m-0">
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-lg-9">
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-0">
+                    <a href="" class="text-decoration-none d-block d-lg-none">
+                        <span class="h1 text-uppercase text-dark bg-light px-2">SellerCentral</span>
+                        <span class="h1 text-uppercase text-light bg-primary px-2 ml-n1">.az</span>
+                    </a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto py-0">
+                            <a class='nav-item nav-link' href="index.html">Ana Səhifə</a>
+                            <a class='nav-item nav-link' href="about.html">Haqqımızda</a>
+                            <a class='nav-item nav-link' href="services.html"></a>
+                            <a class='nav-item nav-link' href="services.html">Xidmətlər</a>
+                            <a class='nav-item nav-link' href="blog.html">Bloglar</a>
+                            <a class='nav-item nav-link' href="faq.html">Tez-tez soruşulan suallar</a>
+                            <a class='nav-item nav-link' href="video.html">Pulsuz dərslər</a>
+                            <a class='nav-item nav-link' href="contact.html">Əlaqə</a>
+                            <div class="nav-item dropdown">
+                                <div class="dropdown-menu bg-primary rounded-0 border-0 m-0">
+                                </div>
+                            </div>
+                            <a class='nav-item nav-link' href='/contact'>Contact</a>
+                        </div>
+                        <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
+                            <a href="" class="btn px-0">
+                                <i class="fas fa-heart text-primary"></i>
+                                <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
+                            </a>
+                            <a href="" class="btn px-0 ml-3">
+                                <i class="fas fa-shopping-cart text-primary"></i>
+                                <span class="badge text-secondary border border-secondary rounded-circle" style="padding-bottom: 2px;">0</span>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
       </header>
       <!-- end header inner -->
       <!-- end header -->
