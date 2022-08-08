@@ -86,59 +86,16 @@
       <!-- end header inner -->
       <!-- end header -->
      
-<div class="wrapper">
-    <form class="form-signin">       
-      <div class="field">
-      <input type="type" class="form-control" name="username" placeholder="Ad Soyad" required/>
-         <br/>
-      <input onkeyup="check()" id="email" type="text" autocomplete="off" name="email" placeholder="Gmail adres" required/>
-      <div class="icons">
-                  <span class="icon1 fas fa-exclamation"></span>
-                  <span class="icon2 fas fa-check"></span>
-               </div>
-                <div class="error-text">
-               Please Enter Valid Email Address
-            </div>     
-      <label class="checkbox">
-        <input type="checkbox" value="remember-me" id="rememberMe" name="rememberMe"> Xatırla
-      </label>
-      </div>
-      <button class="btn btn-lg btn-primary btn-block" type="type"><a class="nav-link" href="video.html">Giriş</a></button>   
+ <div class="wrapper">
+    <form class="form-signin" action="video.html">       
+      <h2 class="form-signin-heading">Please login</h2>
+       <input type="password" class="form-control" name="name" placeholder="Ad Soyad" required=""/>
+        <br>
+        <input type="email" class="form-control" name="mail" for="email" placeholder="Email Address" required="" autofocus="" />
+      <br>    
+     <button  class="btn btn-lg btn-primary btn-block" type="submit">Login</button>  
     </form>
   </div>
- <script>
-         const email = document.querySelector("#email");
-         const icon1 = document.querySelector(".icon1");
-         const icon2 = document.querySelector(".icon2");
-         const error = document.querySelector(".error-text");
-         const btn = document.querySelector("button");
-         let regExp = /^[^ ]+@[^ ]+\.[a-z]{2,3}$/;
-         function check(){
-           if(email.value.match(regExp)){
-             email.style.borderColor = "#27ae60";
-             email.style.background = "#eafaf1";
-             icon1.style.display = "none";
-             icon2.style.display = "block";
-             error.style.display = "none";
-             btn.style.display = "block";
-           }else{
-             email.style.borderColor = "#e74c3c";
-             email.style.background = "#fceae9";
-             icon1.style.display = "block";
-             icon2.style.display = "none";
-             error.style.display = "block";
-             btn.style.display = "none";
-           }
-           if(email.value == ""){
-             email.style.borderColor = "lightgrey";
-             email.style.background = "#fff";
-             icon1.style.display = "none";
-             icon2.style.display = "none";
-             error.style.display = "none";
-             btn.style.display = "none";
-           }
-         }
-      </script>
 
  <!--  footer -->
       <footer>
