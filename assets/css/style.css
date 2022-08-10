@@ -3755,9 +3755,6 @@ span.title-top i {
     font-size: 30px;
 }
 
-.footer-social-link .telegram-icon i {
-    color: #0049e6;
-}
 .footer-social-link .facebook-icon i {
     color: #3b5999;
 }
@@ -3772,6 +3769,10 @@ span.title-top i {
 
 .footer-social-link .instagram-icon i {
     color: #e4405f;
+}
+
+.footer-social-link .telegram-icon i {
+    color: #0049e6;
 }
 
 .fixed-navigation .nav-absolute {
